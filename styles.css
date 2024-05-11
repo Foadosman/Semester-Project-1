@@ -311,6 +311,11 @@ footer ul li a {
     text-align: center;
 }
 
+.for-teachers img {
+    width: 70%;
+    margin-top: 15px;
+}
+
 .for-researchers {
     background: #64427e21;
     padding: 30px;
@@ -652,11 +657,11 @@ textarea {
     }
 
     footer ul li {
-        margin: 10px 3px;
+        margin: 15px 1px;
     }
 
     footer ul li a {
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .exhibition-content1, .exhibition-content2, .exhibition-content3,
@@ -709,4 +714,99 @@ textarea {
 
     
 
+}
+
+
+@media (max-width: 665px) {
+    .hero-slogan {
+        font-size: 20px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        top: 30%;
+    }
+
+    .learn-more {
+        font-size: 14px;
+        width: 120px;
+        height: 30px;
+        top: 50%;
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .explore-btn-1 {
+        margin-left: 60px;
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .explore-btn-2 {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0 15px;
+    }
+
+    footer ul li {
+        display: block;
+        margin: 8px 1px;
+    }
+
+    footer {
+        height: 240px;
+    }
+
+    .explore, .exhibition-spaces h1, .special-events h1,
+    .visit-us h1, .get-involved h1 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 665px) {
+    .exhibition-content1, .exhibition-content2, .exhibition-content3,
+    .exhibition-content4, .exhibition-content5, .events-content1,
+    .events-content2, .events-content3, .explore-intro, .for-kids-content,
+    .for-teachers-content, .for-researchers-content {
+        margin: 0 5px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .hero-text {
+        font-size: 12px;
+        top: 30%;
+    }
+
+    .btn-1 {
+        font-size: 14px;
+        width: 140px;
+    }
+
+    .btn-2 {
+        font-size: 14px;
+        width: 170px;
+    }
+
+    .btn-3 {
+        font-size: 14px;
+        width: 170px;
+    }
+
+    .btn-4 {
+        font-size: 14px;
+        width: 130px;
+    }
+
+    .btn-5 {
+        font-size: 14px;
+        width: 140px;
+    }
 }
