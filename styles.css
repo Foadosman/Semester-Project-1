@@ -551,7 +551,6 @@ footer ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #f4f4f4;
 }
 
@@ -568,6 +567,7 @@ footer ul li a {
 }
 
 .form-container h2, .phone-container h2, .phone-container p {
+    color: #333;
     text-align: center;
 }
 
@@ -575,9 +575,6 @@ footer ul li a {
     margin-bottom: 10px;
 }
 
-.contact-header p, .phone-container p {
-    color: #666;
-}
 
 .working-hours strong {
     color: #333;
@@ -589,7 +586,7 @@ footer ul li a {
 }
 
 .working-hours li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 form {
@@ -598,11 +595,31 @@ form {
 }
 
 input[type="text"],
-input[type="email"],
-textarea {
+input[type="email"] {
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    border: 2px solid black;
+    color: white;
+    background: #3779F8;
+    width: 130px;
+    height: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-self: center;
 }
 
 
