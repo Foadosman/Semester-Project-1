@@ -260,6 +260,12 @@ footer ul li a {
     margin: 0 20px;
 }
 
+.legal {
+    text-align: center;
+    color: white;
+    margin: 
+}
+
 /*explore*/
 
 .explore {
@@ -551,13 +557,22 @@ footer ul li a {
 
 .contact-container {
     width: 600px;
-    background-color: #3779F8;
+    background-color: #9163bf15;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
-.contact-header h1, .form-container h2, .phone-container h2 {
-    color: #333
+.contact-header h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.form-container h2, .phone-container h2, .phone-container p {
+    text-align: center;
+}
+
+.contact-header p, .phone-container p {
+    margin-bottom: 10px;
 }
 
 .contact-header p, .phone-container p {
@@ -574,7 +589,7 @@ footer ul li a {
 }
 
 .working-hours li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 form {
@@ -676,6 +691,15 @@ textarea {
         margin: 0 60px;
     }
 
+    .visit-us h2, .get-involved h2 {
+        margin: 0 60px;
+    }
+
+    .visit-us p, .get-involved p {
+        font-size: 16px;
+        margin: 15px 60px;
+    }
+
     .explore-btn-1 {
         margin-left: 60px;
         width: 140px;
@@ -770,14 +794,20 @@ textarea {
         font-size: 20px;
     }
 
-}
-
-@media (max-width: 665px) {
     .exhibition-content1, .exhibition-content2, .exhibition-content3,
     .exhibition-content4, .exhibition-content5, .events-content1,
     .events-content2, .events-content3, .explore-intro, .for-kids-content,
     .for-teachers-content, .for-researchers-content {
         margin: 0 5px;
+    }
+
+    .visit-us h2, .get-involved h2 {
+        margin: 0 5px;
+    }
+
+    .visit-us p, .get-involved p {
+        font-size: 16px;
+        margin: 10px 5px;
     }
 
     .logo {
