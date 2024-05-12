@@ -715,6 +715,8 @@ textarea {
         top: 25%;
     }
 
+    
+
     footer ul li {
         margin: 15px 1px;
     }
@@ -792,14 +794,14 @@ textarea {
 
     .hero-text {
         font-size: 14px;
-        top: 30%;
+        top: 35%;
     }
 
     .learn-more {
         font-size: 14px;
         width: 120px;
         height: 30px;
-        top: 50%;
+        top: 55%;
     }
 
     .home-grid {
