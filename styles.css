@@ -790,6 +790,7 @@ textarea {
 @media (max-width: 665px) {
     .hero-slogan {
         font-size: 20px;
+        margin-top: 5px;
     }
 
     .hero-text {
