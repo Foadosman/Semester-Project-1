@@ -262,8 +262,16 @@ footer ul li a {
 
 .legal {
     text-align: center;
+}
+
+.privacy {
+    margin-right: 10px;
     color: white;
-    margin: 
+}
+
+.terms {
+    margin-left: 10px;
+    color: white;
 }
 
 /*explore*/
@@ -670,6 +678,21 @@ textarea {
 }
 
 
+/* privacy policay, terms & conditions */
+
+.legal-privacy h1, .legal-terms h1 {
+    margin: 15px 60px 15px 60px;
+}
+
+.legal-privacy h2, .legal-terms h2 {
+    margin: 0px 60px 5px 60px;
+}
+
+.legal-privacy p, .legal-terms p {
+    margin: 0px 60px 15px 60px;
+}
+
+
 
 @media (max-width: 1050px) {
     .exhibition-spaces p {
@@ -835,32 +858,7 @@ textarea {
         font-size: 12px;
         top: 30%;
     }
-/*
-    .btn-1 {
-        font-size: 14px;
-        width: 140px;
-    }
 
-    .btn-2 {
-        font-size: 14px;
-        width: 170px;
-    }
-
-    .btn-3 {
-        font-size: 14px;
-        width: 170px;
-    }
-
-    .btn-4 {
-        font-size: 14px;
-        width: 130px;
-    }
-
-    .btn-5 {
-        font-size: 14px;
-        width: 140px;
-    }
-*/
     footer ul li a {
         font-size: 16px;
     }
@@ -871,6 +869,18 @@ textarea {
 
     .explore-btn-2 {
         margin: 0 5px;
+    }
+
+    .legal-privacy h1, .legal-terms h1 {
+        margin: 15px 5px 15px 5px;
+    }
+    
+    .legal-privacy h2, .legal-terms h2 {
+        margin: 0px 5px 5px 5px;
+    }
+    
+    .legal-privacy p, .legal-terms p {
+        margin: 0px 5px 15px 5px;
     }
     
 }
