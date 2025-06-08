@@ -1,4 +1,8 @@
-# Semester-Project-1
+# Community Science Museum
+
+![Community Science Muser teaser](images/Museum-teaser.png)
+Community Science Museum. Built with HTML and CSS
+
 Client
 An interactive science museum called the *Community Science Museum* is opening soon near your location. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
 
