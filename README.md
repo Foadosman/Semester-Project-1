@@ -1,6 +1,6 @@
 # Community Science Museum
 
-![Community Science Muser teaser](images/Museum-teaser.png)
+![Community Science Muser teaser](Images/Museum-teaser.png)
 Community Science Museum. Built with HTML and CSS
 
 Client
